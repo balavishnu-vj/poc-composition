@@ -3,7 +3,6 @@ import UploadLogic from '../Logic/Upload';
 import UiButton from '../Library/Button';
 
 export default function Upload(props) {
-    console.log('props: ', props);
     return <UploadLogic {...props} label={'Upload'}>
     {props.renderUI(props)}
     </UploadLogic>
